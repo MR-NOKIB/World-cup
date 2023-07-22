@@ -176,3 +176,60 @@ hr{
     text-decoration: none;
 }
 
+
+
+@media screen and (max-width: 576px) {
+    .greatest-show{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }  
+    .greatest-show-details{
+        text-align: center;
+        width: 100%;
+    }
+    .marcelo-image img{
+        width: 100%;
+    }
+    .asides{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .aside{
+        width: 100%;
+        background: #FFF;
+    }
+    .upcoming-match a, 
+    .all-groups a{
+        border-radius: 10px;
+        border: 1px solid #E8E8E8;
+        padding: 1em;
+    }.blogs-button{
+        margin: 0;
+        background: none;
+    }
+    .blogs-button a{
+        padding: .8em;
+        border-radius: 10px;
+        border: 1px solid #E8E8E8;
+        background-color: #D00;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-link{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 1em;
+    }
+    .footer{
+        height: 100%;
+    }
+    footer{
+        height: 100%;
+    }
+}
